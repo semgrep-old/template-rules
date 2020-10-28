@@ -3,3 +3,21 @@
 [![r2c community slack](https://img.shields.io/badge/slack-join-green?style=flat-square)](https://r2c.dev/slack)
 
 a template repo for semgrep rules
+
+## Geting started
+
+This guide assumes you are familiar with [Semgrep](https://semgrep.dev/docs) and have it already installed.
+
+1. Test out this template repo:
+
+```bash
+git clone clone https://github.com/semgrep/template-rules.git
+semgrep --config template-rules/rules template-rules/rules/hello-world.py
+
+```
+
+2. Copy this template to your own repo
+3. Add your rules (and their test files) to the `rules` folder
+4. Iterate rules and ensure they pass the built-in tests
+5. Open a PR to the [Awesome Semgrep](https://github.com/returntocorp/semgrep-docs/docs/awesome.md) list
+6. Ask for help in the Semgrep [community slack](https://r2c.dev/slack) any time 👋
