@@ -1,0 +1,6 @@
+rules:
+- id: hello-world
+  pattern: $X == $X
+  message: $X == $X is a useless equality check
+  languages: [python]
+  severity: ERROR
