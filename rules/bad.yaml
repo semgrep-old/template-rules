@@ -1,0 +1,8 @@
+rules:
+- id: print
+  patterns:
+  - pattern: print(...)
+  - pattern-not: print("...")
+  languages: [python]
+  severity: INFO
+  message: Don't leave prints in code
