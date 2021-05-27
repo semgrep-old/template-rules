@@ -1,0 +1,22 @@
+runs:
+- name: test_python
+  repos:
+  - url: https://github.com/django/django
+    commit_hash: 7cca22964c09e8dafc313a400c428242404d527a
+  rule_configs:
+  - 'r/python'
+  opts: []
+- name: test_ruby
+  repos:
+  - url: https://github.com/rails/rails
+    commit_hash: f7b65ee0c41c534d1360f50cc136b01b8b63271b
+  rule_configs:
+  - 'r/ruby'
+  opts: []
+- name: test_javascript
+  repos:
+  - url: https://github.com/bkimminich/juice-shop
+    commit_hash: e07059edd3b4ed0527add13d0dd5c8570daa3bcc
+  rule_configs:
+  - 'r/javascript'
+  opts: [] 

@@ -28,5 +28,5 @@ jobs:
             python3 -m semgrep --version
             export PATH=/github/home/.local/bin:$PATH
             python3 semgrep/perf/run-benchmarks --small-only --std-only --output-time-per-rule-json baseline_timing1.txt
-            cat semgrep/baseline_timing1.txt
+            cat baseline_timing1.txt
             pip3 uninstall -y semgrep
