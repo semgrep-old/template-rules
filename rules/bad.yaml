@@ -1,0 +1,5 @@
+rules:
+- id: missing-language
+  message: blah
+  pattern: blah
+  severity: INFO
