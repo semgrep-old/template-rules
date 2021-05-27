@@ -14,4 +14,3 @@ jobs:
     - uses: returntocorp/semgrep-action@v1
       with:
         config: p/semgrep-rule-lints
-
