@@ -25,7 +25,7 @@ To test out the benchmarking scripts in `semgrep/perf`, run:
 cd semgrep/perf
 make
 ```
-or refer to https://github.com/returntocorp/semgrep/tree/develop/perf. 
+or refer to https://github.com/returntocorp/semgrep/tree/develop/perf.
 
 2. Copy this template to your own repo.
 
@@ -34,10 +34,10 @@ or refer to https://github.com/returntocorp/semgrep/tree/develop/perf.
 ---
 
 ### What are these for?
-These configurations are Github Action scripts that you can run in CI. You can find them in `perf-templates`. 
+These configurations are Github Action scripts that you can run in CI. You can find them in `perf-templates`.
 
 **benchmark-tests.yml**
-`benchmark-tests.yml` is a YAML file that runs the timing benchmark with source code in [perf](https://github.com/returntocorp/semgrep/tree/develop/perf). 
+`benchmark-tests.yml` is a YAML file that runs the timing benchmark with source code in [perf](https://github.com/returntocorp/semgrep/tree/develop/perf).
 
 The `Run Timing Benchmark With Latest Semgrep Version` action runs the benchmark script with the following flags:
 - `--small-only`: runs the script on small benchmarking repositories only, as compared to medium-sized or large-sized repositories.
@@ -51,7 +51,7 @@ The `Run Timing Benchmark With Specified Config File` action runs the benchmark 
 `config-template.yml` is a YAML file that lets the user specify which repositories and rules to run the benchmarking scripts on. Feeding this file into the `--config` flag for the `run-benchmarks` script in the `semgrep/perf` folder.
 
 ### How can I use these?
-1. Copy the desired configuration files into your `.github/workflows` folder. 
+1. Copy the desired configuration files into your `.github/workflows` folder.
 2. Change these configuration templates as needed.
 3. Create a pull request with these changes and see if the appropriate tests are running in your Github Actions!
 
