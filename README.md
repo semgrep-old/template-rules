@@ -11,7 +11,7 @@ This guide assumes you are familiar with [Semgrep](https://semgrep.dev/docs) and
 1. Test out this template repo with the following command:
 
 ```bash
-git clone clone https://github.com/semgrep/template-rules.git
+git clone https://github.com/semgrep/template-rules.git
 ```
 
 To test out the rules template, run:
