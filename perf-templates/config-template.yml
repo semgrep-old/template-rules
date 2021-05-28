@@ -1,22 +1,15 @@
 runs:
-- name: test_python
-  repos:
-  - url: https://github.com/django/django
-    commit_hash: 7cca22964c09e8dafc313a400c428242404d527a
-  rule_configs:
-  - 'r/python'
-  opts: []
 - name: test_ruby
   repos:
-  - url: https://github.com/rails/rails
-    commit_hash: f7b65ee0c41c534d1360f50cc136b01b8b63271b
+  - url: https://github.com/grocer/grocer
+    commit_hash: 1a4958863b24fd45ae36f29e0c8ab88399bc9097
   rule_configs:
   - 'r/ruby'
   opts: []
 - name: test_javascript
   repos:
-  - url: https://github.com/bkimminich/juice-shop
-    commit_hash: e07059edd3b4ed0527add13d0dd5c8570daa3bcc
+  - url: https://github.com/mintchaos/flippant.js 
+    commit_hash: 8bba9a459501eec18ddf9333d41530c6ac52c4cc 
   rule_configs:
   - 'r/javascript'
-  opts: [] 
+  opts: []
