@@ -4,7 +4,7 @@
 
 a template repo for semgrep rules and semgrep performance.
 
-## Geting started
+## Getting started
 
 This guide assumes you are familiar with [Semgrep](https://semgrep.dev/docs) and have it already installed.
 
