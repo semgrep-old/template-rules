@@ -1,5 +1,5 @@
 test:
-	semgrep --validate --config=$$PWD/rules $$PWD
-	semgrep --test --strict $$PWD
+	semgrep --validate --config=./rules ./rules
+	semgrep --test --strict ./rules
 output:
-	semgrep --test --strict --save-test-output-tar $$PWD
+	semgrep --test --strict --save-test-output-tar ./rules
