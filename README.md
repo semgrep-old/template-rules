@@ -59,5 +59,4 @@ The `Run Timing Benchmark With Specified Config File` action runs the benchmark 
 
 1. Add your rules (and their test files) to the `rules` folder
 2. Iterate rules and ensure they pass the built-in tests
-3. Open a PR to the [Awesome Semgrep](https://github.com/returntocorp/semgrep-docs/docs/awesome.md) list
-4. Ask for help in the Semgrep [community slack](https://r2c.dev/slack) any time 👋
+3. Ask for help in the Semgrep [community slack](https://r2c.dev/slack) any time 👋
